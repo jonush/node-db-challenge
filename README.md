@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+  - Relational databases enable us to store data into formatted columns and rows, along with keys that let us identify each data point. SQL is a **database management system** that is used to write queries and retrieve data from a database.
+
 - [ ] Why do tables need a `primary key`?
+
+  - Primary keys are important because they are the unique identifier for each point of data that would enable us to query for specific things. They are the main characteristic that distinguishes data points from each other. They are generally unique and will auto-increment upon adding new data.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+  - **Foreign key**
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+  - In addition to foreign keys, _many to many_ relationship tables usually require a *third* table (intermediary table) that acts as a "connector" for the the two _many_ tables.
 
 ## Minimum Viable Product
 
